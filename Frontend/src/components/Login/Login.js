@@ -81,6 +81,7 @@ const Login = () => {
       setItemWithExpiry("isLoggedIn",true);
       ctx.LoggingIn(token,role);
       ctx.fetch();
+      navigate("/");
      }
     } catch (err) {
       setError(true);
@@ -96,7 +97,6 @@ const Login = () => {
       resetEmailInput();
       resetPasswordInput();
       login();
-      navigate("/");
     } else {
       console.log("error");
     }
