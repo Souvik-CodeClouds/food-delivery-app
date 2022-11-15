@@ -1,0 +1,12 @@
+{
+    "name": "codeclouds-admin/food-delivery-app",
+    "description": "fooddelivery",
+    "authors": [
+        {
+            "name": "souvik"
+        }
+    ],
+    "require": {
+        "firebase/php-jwt": "^5.5"
+    }
+}
